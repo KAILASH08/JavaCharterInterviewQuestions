@@ -1,0 +1,103 @@
+JP Morgan Interview Questions
+
+JP Morgan 7th Sept 2022
+======================
+
+1. Let's say I have Strings like following :
+
+String s1 = "Tapan"
+String s2 = "Tapan"
+String s3 = new String("Tapan");
+
+How many memory allocation will be there for these assignments/code?
+What will be output of System.out.println(s1);
+
+Ans : imp URL :
+https://stackoverflow.com/questions/8061587/java-memory-stack-allocation-for-local-variables
+
+2. What is benefit of creating a abstract class?
+
+Ans : Imp URL to learn:
+
+https://www.simplilearn.com/tutorials/java-tutorial/abstract-class-in-java
+
+3. If I have a list of Strings, how will I remove the duplicates from it?
+Can you write down the logic?
+
+I explained the normal Java Logic.
+
+4. If you are going to remove dublicates using Set and when you add list to Set then what add method returns?
+what is return type of Set ?
+
+5. What is difference between @controller and @RestController annotation
+
+6. How can I tell my REST API method that I need to return response in which format
+
+7. If I want to supply another parameter along with Response body, how can I do that?
+Here he explained about @PathVariable
+
+8. What is Serialization in Java ?
+
+9 . Does An abstract class  required to have an abstract method inside ?/Can we declare a class as Abstract without having any abstract method?
+
+An abstract class is not required to have an abstract method in it. But any class that has an abstract method in it or that does not provide an implementation for any abstract methods declared in its superclasses must be declared as an abstract class.
+
+10. How one can pass the path parameter in URL of rest API?
+
+11.  Why not serialize abstract classes in Java?
+
+12. Let's say if I have following :
+
+try
+{
+return 1;
+}
+Catch(Exception e)
+{
+return 2:
+}
+finally
+{
+return 3;
+}
+
+Let's say that this code is inside one method . If I run this code, what will be output and why?
+
+
+13. Have you worked with Hibernate?
+I said yes before sometime. He asked below question.
+
+How will I write the code using Hibernate? what will be the steps in my DAO classes and it's implementation class?
+
+I couldn't answer this but here he wanted to focus on Query query=session.createQuery("from Emp");
+
+14. What is change in Java Memory Model from Java8 onwards?
+
+15. What is ConcurrentHashMap ?
+
+16. What are Java8 features?
+
+17. What is Lamda expression?
+
+18. What is structure of Lamda expression?
+
+19. How can I modify the server port in Spring Boot project?
+
+20. Let's say if I have an interface and there are many implementators of it and they are calling interface method using different objects,, then will it work?
+Imp : https://stackoverflow.com/questions/2801878/implementing-two-interfaces-in-a-class-with-same-method-which-interface-method
+
+21. What is No-argument constructor?
+
+22. What is fail-fast and fail safe collections?
+
+23. What are the Differences between == and equals() method in Java?
+
+24. How a Null Pointer can be checked using Java 8 Optional?
+
+25. Can you write down the syntax of Optional?
+
+26. Is there any way not to implement interface methods in Java?
+
+27. What are the Differences between abstract class and interface?
+
+28. What is SerialVersionUID in Java?
